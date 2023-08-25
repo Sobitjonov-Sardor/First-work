@@ -1,0 +1,148 @@
+@media (max-width:1199.99px) {
+    .header__info-text {
+        font-size: 46px;
+        max-width: 531px;
+    }
+
+    .header__info-descr {
+        max-width: 396.886px;
+    }
+
+    .header__boy {
+        width: 100%;
+    }
+}
+
+@media (max-width:991.99px) {
+    .section1 {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section2__content {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section3__content {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section1__img {
+        width: 100%;
+    }
+
+    .section2__content img {
+        width: 100%;
+    }
+
+    .section3__content img {
+        width: 100%;
+    }
+
+    .header__content {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__content {
+        flex-wrap: wrap;
+    }
+
+    .header__info-text {
+        font-size: 35px;
+        line-height: 100%;
+    }
+
+    .nav__logo-vector {
+        margin: 0 20px;
+    }
+
+    .nav__login {
+        gap: 20px;
+    }
+
+    .nav_list {
+        gap: 20px;
+    }
+}
+
+@media (max-width:767.99px) {
+    .nav__menu-btn {
+        display: flex;
+    }
+
+    .nav__logo-vector {
+        display: none;
+    }
+
+    .nav_list {
+        display: none;
+    }
+
+    .nav__logo-vector {
+        margin: 10px;
+    }
+
+    .list__menu {
+        display: flex;
+    }
+
+    .menu-btn:hover .nav__menu-list {
+        opacity: 1;
+        left: 0;
+    }
+    .nav__login {
+        gap: 10px;
+    }
+    .nav__user {
+        display: flex;
+    }
+    .footer__content-links {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer__links {
+        flex-wrap: wrap; 
+        align-items: center;
+        justify-content: center;
+    }
+    .footer__users {
+        flex-wrap: wrap; 
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:575.99px) {
+    .info__vector {
+        display: none;
+    }
+    .header__content-info__components {
+        justify-content: space-around;
+    }
+    .nav__user {
+        display: flex;
+    }
+    .nav__logo {
+    font-size: 15.861px;
+    }
+    .section2__content-title {
+        font-size: 40px;
+    }
+
+    .nav__login-user {
+        padding: 7px 12px;
+    }
+    .nav__user {
+        gap: 5px;
+    }
+    .nav__login {
+        gap: 5px;
+    }
+}
